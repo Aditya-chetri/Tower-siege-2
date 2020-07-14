@@ -29,6 +29,8 @@ class Block {
    pop();
     }else {
       push();
+       this.Visiblity = this.Visiblity - 5;
+     tint(255,this.Visiblity);
       
       
       World.remove(world, this.body);
