@@ -31,7 +31,7 @@ function setup(){
 }  
 
 function draw(){
-    background(55,43,43);
+    background("blue");
     Engine.update(engine);
     box1.display();
     ground.display();
